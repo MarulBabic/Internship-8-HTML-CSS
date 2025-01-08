@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: black; 
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: white; 
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  nav {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  nav p {
+    text-decoration: dashed;
+    text-align: center;
+    color: white;
+  }
+
+  nav ul li a {
+    text-decoration-color: lightskyblue;
+    color: lightskyblue;
+    text-align: center;
+  }
+
+  nav ul li {
+    text-align: left;
+    margin-left:30px;
+}
+
+  
+
+  .section {
+    background-color: #faebd7; 
+    padding: 20px;
+    margin: 20px auto;
+    border: 10px solid;
+    color: black; 
+  }
+  
+  #info {
+    border-color: magenta;
+  }
+  
+  #how {
+    border-color: cyan;
+  }
+  
+  #but {
+    border-color: orange;
+  }
+  
+  .section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .section p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  #but img {
+    display: block;
+    margin-left: 0;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  footer a {
+    color: cyan;
+    text-decoration: none;
+  }
+  
+  footer .static-text {
+    color: white;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+
+  a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
+  
+  
